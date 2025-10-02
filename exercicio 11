@@ -1,0 +1,14 @@
+food = int(input("digite o codigo do produto "))
+
+if food <= 15 :
+  print("limpeza e utensílios")
+elif food == 7:
+  print("higiene pessoal")
+elif food <= 6:
+  print("vestuario")
+elif food <= 4:
+  print("alimento perecivel")
+elif food == 1:
+  print("alimento não-perecivel")
+else:
+  print("inválido")
