@@ -1,0 +1,17 @@
+def maior(numero1,numero2,numero3):
+  if a > b and a > c:
+    print(f"o primeiro numero é o maior: {a}")
+  elif b > a and b > c:
+    print(f"o segundo numero é o maior:{b}")
+  elif c > a and c > a:
+    print(f"o terceiro numero é o maior:{c}")
+  else:
+    print("algo não está certo")
+
+
+a=int(input("digite o primeiro numero"))
+b=int(input("digite o segundo numero"))
+c=int(input("digite o terceiro numero"))
+
+numerofinal= maior(a,b,c)
+print(numerofinal)
