@@ -1,0 +1,31 @@
+
+
+    nota1 = float(input("Digite a primeira nota : "))
+    nota2 = float(input("Digite a segunda nota : "))
+    nota3 = float(input("Digite a terceira nota : "))
+    nota4 = float(input("Digite a quarta nota : "))
+
+    media_inicial = (nota1 + nota2 + nota3 + nota4) / 4
+
+
+    if media_inicial >= 7.0:
+        print("Parabéns! Você foi aprovado por média.")
+        print(f"Média final: {media_inicial}")
+
+    else:
+        print(f"Média inicial: {media_inicial}")
+        print("Você está em Exame. É necessário fazer uma prova extra.")
+
+
+    nota_exame = float(input("Digite a nota do Exame: "))
+
+    nova_media1 = (media_inicial + nota_exame) / 2
+
+
+    if nova_media1 >= 7.0:
+        print("Parabéns! Você foi APROVADO(A) em Exame.")
+        print(f"Média final: {nova_media1}")
+    else:
+
+        print("Infelizmente, você foi REPROVADO(A).")
+        print(f"Média final: {nova_media1}")
