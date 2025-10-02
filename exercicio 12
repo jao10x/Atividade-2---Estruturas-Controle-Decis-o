@@ -1,0 +1,11 @@
+def suporsalario(salario):
+  if salario != 1000:
+      print("seu salario é bom")
+  else:
+      print("seu salario não é aceitavel")
+
+
+salario= float(input("digite seu salario"))
+
+salariofinal = suporsalario(salario)
+print(salariofinal)
