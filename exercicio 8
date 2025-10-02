@@ -1,0 +1,5 @@
+numero = int(input("digite seu numero inteiro"))
+if numero % 2 == 0 and numero % 3 == 0:
+  print("seu numero é divivel por dois e três")
+else:
+  print("seu numero não é divisivel por ambos")
