@@ -1,0 +1,11 @@
+def quadrado(numero):
+ if numero > 0:
+   resultado =  numero * numero
+   print(f"o quadrado do seu numero é:{resultado}")
+ else:
+  print("seu numro é negativo logo não é valido!")
+
+
+numero = int(input("digite seu numero e te darei o quadrado dele""__"))
+numeerofinal = quadrado(numero)
+print(numeerofinal)
