@@ -1,0 +1,9 @@
+def numero2(Numero):
+    if Numero % 2 != 0:
+       print("seu numero é impar")
+    else:
+      print("seu numero é par")
+
+Numero = int(input("digite seu numero"))
+finalnumero = numero2(Numero)
+print(finalnumero)
