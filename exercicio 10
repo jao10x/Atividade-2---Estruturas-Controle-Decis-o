@@ -1,0 +1,14 @@
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+  print("Sua classificação é Senior E")
+elif idade >= 14:
+  print("Sua classificação é Senior D")
+elif idade >= 11:
+  print("Sua classificação é Juvenil C")
+elif idade >= 8:
+  print("Sua classificação é Juvenil B")
+elif idade >= 5:
+  print("Sua classificação é Infantil A")
+else:
+  print("Você não se classifica")
